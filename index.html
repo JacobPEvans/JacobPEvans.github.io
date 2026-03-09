@@ -1,0 +1,69 @@
+---
+layout: splash
+permalink: /
+hidden: true
+header:
+  overlay_color: "#252a34"
+  overlay_filter: "0.55"
+  overlay_image: /assets/images/splash-hero.jpg
+  actions:
+    - label: "<i class='fab fa-github'></i> GitHub"
+      url: "https://github.com/JacobPEvans"
+    - label: "<i class='fas fa-globe'></i> jacobpevans.com"
+      url: "https://jacobpevans.com"
+  caption: "Photo: Unsplash"
+title: "Jacob Evans"
+excerpt: >
+  Infrastructure automation, observability, and AI-assisted DevOps.<br />
+  Building reliable systems with Terraform, Ansible, and Nix.
+
+feature_row:
+  - image_path: /assets/images/feature-infra.jpg
+    image_caption: "Infrastructure"
+    alt: "Infrastructure as Code"
+    title: "Infrastructure as Code"
+    excerpt: >
+      Proxmox homelab managed entirely with Terraform and Ansible.
+      Reproducible, version-controlled, and automated from bare metal to application.
+    url: "/portfolio/"
+    btn_class: "btn--primary"
+    btn_label: "See Portfolio"
+
+  - image_path: /assets/images/feature-obs.jpg
+    image_caption: "Observability"
+    alt: "Observability Stack"
+    title: "Observability & Monitoring"
+    excerpt: >
+      End-to-end telemetry pipeline with OpenTelemetry, Cribl Stream,
+      and Splunk. Real-time insights from infrastructure to AI coding tools.
+    url: "/posts/"
+    btn_class: "btn--primary"
+    btn_label: "Read the Blog"
+
+  - image_path: /assets/images/feature-ai.jpg
+    image_caption: "AI Development"
+    alt: "AI-Assisted Development"
+    title: "AI-Assisted Development"
+    excerpt: >
+      Multi-model AI orchestration with Claude Code, Gemini, and local Ollama models.
+      Nix-managed configs, skills, and automated workflows.
+    url: "/about/"
+    btn_class: "btn--primary"
+    btn_label: "About Me"
+
+feature_row2:
+  - image_path: /assets/images/feature-nix.jpg
+    alt: "Nix Ecosystem"
+    title: "The Nix Quartet"
+    excerpt: >
+      Four interlocking Nix flakes: **nix-darwin** for macOS system config,
+      **nix-home** for dev environment, **nix-ai** for AI tools,
+      and **nix-screenpipe** for screen recording. Reproducible everywhere.
+    url: "/posts/"
+    btn_class: "btn--inverse"
+    btn_label: "Blog Posts"
+---
+
+{% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}

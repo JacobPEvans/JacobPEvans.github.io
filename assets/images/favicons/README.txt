@@ -1,0 +1,1 @@
+Add favicon files here: apple-touch-icon.png, favicon-32x32.png, favicon-16x16.png, site.webmanifest

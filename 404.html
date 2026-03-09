@@ -1,0 +1,73 @@
+---
+title: "404 — Page Not Found"
+layout: single
+permalink: /404.html
+author_profile: false
+---
+
+<style>
+  .page__content { margin-top: 0; }
+  .page__title { display: none; }
+</style>
+
+<div class="terminal-404">
+  <div class="terminal-window">
+    <div class="terminal-titlebar">
+      <span class="dot dot-red"></span>
+      <span class="dot dot-yellow"></span>
+      <span class="dot dot-green"></span>
+      <span class="title">bash — 80×24</span>
+    </div>
+    <div class="terminal-body">
+      <div class="terminal-line">
+        <span class="prompt">$</span>
+        <span class="cmd">curl https://jacobpevans.github.io{{ page.url }}</span>
+      </div>
+      <div class="terminal-line output">
+        curl: (404) The requested resource could not be found.
+      </div>
+      <div class="terminal-line output-muted">
+        &nbsp;
+      </div>
+      <div class="terminal-line">
+        <span class="prompt">$</span>
+        <span class="cmd">cat /var/log/nginx/error.log | tail -1</span>
+      </div>
+      <div class="terminal-line output">
+        2026/03/09 — 404 Not Found: "{{ page.url }}"
+      </div>
+      <div class="terminal-line output-muted">
+        &nbsp;
+      </div>
+      <div class="terminal-line">
+        <span class="prompt">$</span>
+        <span class="cmd">terraform state list | grep "{{ page.url | split: '/' | last }}"</span>
+      </div>
+      <div class="terminal-line output">
+        Error: No resources found matching that filter.
+      </div>
+      <div class="terminal-line output-muted">
+        &nbsp;
+      </div>
+      <div class="terminal-line">
+        <span class="prompt">$</span>
+        <span class="cmd">cd / &amp;&amp; ls &nbsp;<span class="cursor"></span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="terminal-404-links">
+    <a href="/" class="btn btn--primary">
+      <i class="fas fa-home"></i> Home
+    </a>
+    <a href="/about/" class="btn btn--inverse">
+      <i class="fas fa-user"></i> About
+    </a>
+    <a href="/posts/" class="btn btn--inverse">
+      <i class="fas fa-blog"></i> Blog
+    </a>
+    <a href="/search/" class="btn btn--inverse">
+      <i class="fas fa-search"></i> Search
+    </a>
+  </div>
+</div>

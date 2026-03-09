@@ -1,0 +1,172 @@
+# Welcome to Jekyll!
+# Full Docs: https://mmistakes.github.io/minimal-mistakes/
+
+title: "Jacob Evans"
+subtitle: "DevOps & Infrastructure Engineer"
+name: "Jacob Evans"
+description: "Infrastructure automation, observability, and AI-assisted development."
+url: "https://jacobpevans.github.io"
+baseurl: ""
+repository: "JacobPEvans/JacobPEvans.github.io"
+logo: "/assets/images/avatar.jpg"
+masthead_title: "Jacob Evans"
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "dark"
+
+# Plugins (GitHub Pages whitelisted)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-github-metadata
+  - jemoji
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gruntfile.js
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - tmp
+  - /docs
+  - /test
+
+keep_files:
+  - .git
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: America/New_York
+
+# Archives
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#archive-settings
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      show_date: true
+      toc: true
+      toc_sticky: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Author
+author:
+  name: "Jacob Evans"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Infrastructure automation, observability, and AI-assisted DevOps. Building reliable systems with Terraform, Ansible, and Nix."
+  location: "United States"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/JacobPEvans"
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-globe"
+      url: "https://jacobpevans.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/jacobpevans"
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/JacobPEvans"
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-globe"
+      url: "https://jacobpevans.com"
+
+# Search
+search: true
+search_full_content: true
+search_provider: lunr
+
+# SEO
+og_image: "/assets/images/og-default.png"
+twitter:
+  username: "jacobpevans"
+social:
+  name: "Jacob Evans"
+  links:
+    - "https://github.com/JacobPEvans"
+    - "https://jacobpevans.com"
