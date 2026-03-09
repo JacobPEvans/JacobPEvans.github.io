@@ -10,7 +10,7 @@ tags:
   - jekyll
 excerpt: "A tour of every feature this site supports: Mermaid diagrams, KaTeX math, emoji, notice blocks, tables, code blocks, and more."
 header:
-  teaser: /assets/images/teaser-default.png
+  teaser: /assets/images/teaser-default.svg
 toc: true
 toc_sticky: true
 ---

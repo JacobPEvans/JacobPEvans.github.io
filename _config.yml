@@ -162,7 +162,7 @@ search_full_content: true
 search_provider: lunr
 
 # SEO
-og_image: "/assets/images/og-default.png"
+og_image: "/assets/images/avatar.jpg"
 twitter:
   username: "jacobpevans"
 social:

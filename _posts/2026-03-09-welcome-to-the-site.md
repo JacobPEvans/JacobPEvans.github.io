@@ -9,8 +9,8 @@ tags:
   - github-pages
 excerpt: "Launching a GitHub Pages showcase built with Jekyll and Minimal Mistakes — a tour of the features."
 header:
-  teaser: /assets/images/teaser-default.png
-  overlay_image: /assets/images/teaser-default.png
+  teaser: /assets/images/teaser-default.svg
+  overlay_image: /assets/images/teaser-default.svg
   overlay_filter: 0.5
 toc: true
 toc_sticky: true
