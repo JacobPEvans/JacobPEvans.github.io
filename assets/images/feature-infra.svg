@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320">
+  <rect width="640" height="320" fill="#1a1e26"/>
+  <!-- Server rack units -->
+  <rect x="220" y="60" width="200" height="28" rx="4" fill="none" stroke="#00adb5" stroke-width="2"/>
+  <rect x="228" y="68" width="10" height="12" rx="2" fill="#00adb5"/>
+  <circle cx="404" cy="74" r="5" fill="#00adb5" opacity="0.9"/>
+  <circle cx="388" cy="74" r="5" fill="#00adb5" opacity="0.5"/>
+
+  <rect x="220" y="98" width="200" height="28" rx="4" fill="none" stroke="#00adb5" stroke-width="2"/>
+  <rect x="228" y="106" width="10" height="12" rx="2" fill="#00adb5"/>
+  <circle cx="404" cy="112" r="5" fill="#28c840" opacity="0.9"/>
+  <circle cx="388" cy="112" r="5" fill="#00adb5" opacity="0.5"/>
+
+  <rect x="220" y="136" width="200" height="28" rx="4" fill="none" stroke="#00adb5" stroke-width="2"/>
+  <rect x="228" y="144" width="10" height="12" rx="2" fill="#00adb5"/>
+  <circle cx="404" cy="150" r="5" fill="#28c840" opacity="0.9"/>
+  <circle cx="388" cy="150" r="5" fill="#00adb5" opacity="0.5"/>
+
+  <rect x="220" y="174" width="200" height="28" rx="4" fill="none" stroke="#00adb5" stroke-width="2"/>
+  <rect x="228" y="182" width="10" height="12" rx="2" fill="#00adb5"/>
+  <circle cx="404" cy="188" r="5" fill="#28c840" opacity="0.9"/>
+  <circle cx="388" cy="188" r="5" fill="#00adb5" opacity="0.5"/>
+
+  <!-- Rack frame -->
+  <rect x="210" y="50" width="220" height="170" rx="4" fill="none" stroke="#393e46" stroke-width="2"/>
+
+  <!-- Labels -->
+  <text x="320" y="248" text-anchor="middle" font-family="monospace" font-size="13" fill="#00adb5" opacity="0.8">terraform · ansible · proxmox</text>
+</svg>

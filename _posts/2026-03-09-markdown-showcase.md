@@ -54,13 +54,12 @@ sequenceDiagram
     O-->>U: Summary + PR link
 </div>
 
-### Architecture Diagram — Nix Quartet
+### Architecture Diagram — Nix Trio
 
 <div class="mermaid">
 graph TD
     ND[nix-darwin<br/>macOS system] --> NH[nix-home<br/>dev environment]
     ND --> NAI[nix-ai<br/>AI tools]
-    ND --> NS[nix-screenpipe<br/>recording]
     NH --> SHELL[zsh + tmux]
     NAI --> CC[Claude Code<br/>+ plugins]
     NAI --> GEM[Gemini]
@@ -68,7 +67,6 @@ graph TD
     style ND fill:#252a34,stroke:#00adb5,color:#eaeaea
     style NH fill:#393e46,stroke:#6c757d,color:#eaeaea
     style NAI fill:#393e46,stroke:#6c757d,color:#eaeaea
-    style NS fill:#393e46,stroke:#6c757d,color:#eaeaea
 </div>
 
 ---

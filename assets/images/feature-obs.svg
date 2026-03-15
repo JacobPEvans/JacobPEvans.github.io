@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320">
+  <rect width="640" height="320" fill="#1a1e26"/>
+  <!-- Chart axes -->
+  <line x1="160" y1="220" x2="480" y2="220" stroke="#393e46" stroke-width="2"/>
+  <line x1="160" y1="80"  x2="160" y2="220" stroke="#393e46" stroke-width="2"/>
+  <!-- Grid lines -->
+  <line x1="160" y1="173" x2="480" y2="173" stroke="#393e46" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="160" y1="127" x2="480" y2="127" stroke="#393e46" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="160" y1="80"  x2="480" y2="80"  stroke="#393e46" stroke-width="1" stroke-dasharray="4,4"/>
+  <!-- Metric line -->
+  <polyline points="160,200 210,185 250,190 290,140 330,155 370,110 400,125 440,95 480,105"
+            fill="none" stroke="#00adb5" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Area fill -->
+  <polygon points="160,220 160,200 210,185 250,190 290,140 330,155 370,110 400,125 440,95 480,105 480,220"
+           fill="#00adb5" fill-opacity="0.08"/>
+  <!-- Data points -->
+  <circle cx="290" cy="140" r="4" fill="#00adb5"/>
+  <circle cx="370" cy="110" r="4" fill="#00adb5"/>
+  <circle cx="480" cy="105" r="4" fill="#00adb5"/>
+  <!-- Label -->
+  <text x="320" y="262" text-anchor="middle" font-family="monospace" font-size="13" fill="#00adb5" opacity="0.8">cribl · splunk · otel</text>
+</svg>

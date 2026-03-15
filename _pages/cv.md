@@ -61,12 +61,11 @@ End-to-end telemetry from network to dashboard:
 - NetFlow pipeline for network traffic analysis
 - AI coding tool observability with custom Splunk app (**VisiCore**)
 
-### Nix Configuration Quartet
-Four interlocking Nix flakes managing a complete macOS development environment:
+### Nix Configuration Trio
+Three interlocking Nix flakes managing a complete macOS development environment:
 - **nix-darwin**: macOS system, Homebrew, LaunchDaemons
 - **nix-home**: CLI tools, shell, git, tmux, VS Code
 - **nix-ai**: Claude Code, Gemini, Copilot, MCP servers, plugins
-- **nix-screenpipe**: AI screen/audio recording
 
 ### AI Development Toolchain
 Multi-model orchestration platform:

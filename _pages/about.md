@@ -56,16 +56,15 @@ My Claude Code setup has 20+ custom skills, plugins for git workflows, Ansible a
 
 ---
 
-## The Nix Quartet
+## The Nix Trio
 
-Four interlocking Nix flakes manage my entire macOS development environment:
+Three interlocking Nix flakes manage my entire macOS development environment:
 
 | Flake | Purpose |
 |-------|---------|
 | `nix-darwin` | macOS system config, Homebrew, LaunchDaemons |
 | `nix-home` | CLI tools, shell, git, tmux, VS Code, linters |
 | `nix-ai` | Claude Code, Gemini, Copilot, MCP servers, plugins |
-| `nix-screenpipe` | AI screen/audio recording |
 
 Every worktree gets an automatic dev shell via `direnv` + Nix flakes. `cd` into a repo and the right tools are just there.
 
